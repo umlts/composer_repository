@@ -8,11 +8,11 @@ Add this to your composer.json file:
 
 ```
 
-{
-  "repositories": [{
-    "type": "composer",
-    "url": "https://vcs.missouri.edu/umlts/composer_update/raw/master/"
-  }]
-}
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://vcs.missouri.edu/umlts/composer_repository/raw/master/packages.json"
+        }
+    ],
 
 ```
