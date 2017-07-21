@@ -1,6 +1,6 @@
 {
     "name": "UMLTS Repository",
-    "homepage": "https://vcs.missouri.edu/umlts/composer_update/blob/master/",
+    "homepage": "https://vcs.missouri.edu/umlts/composer_update/raw/master/",
     "repositories": [
         {
             "type": "git",
