@@ -1,0 +1,258 @@
+{
+    "packages": {
+        "umlts/ashkende": {
+            "dev-master": {
+                "name": "umlts/ashkende",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/umlts/sierra/ashkente.git",
+                    "reference": "e0af14341049358ffa37f7f7d306d6241bd4f944"
+                },
+                "require": {
+                    "monolog/monolog": "^1.23",
+                    "php": "^7",
+                    "umlts/config": "@dev",
+                    "umlts/marc_pull": "@dev"
+                },
+                "time": "2017-07-21T15:19:06+00:00",
+                "type": "project",
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ],
+                "description": "Pulls records from Sierra. Moves them to a desired place."
+            }
+        },
+        "umlts/config": {
+            "dev-master": {
+                "name": "umlts/config",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/bartikowskiw/config.git",
+                    "reference": "a9fc854370d3e882397f8166c867e9c7a49f9769"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-07-21T14:59:57+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\Config\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ],
+                "description": "Configuration loader class."
+            }
+        },
+        "umlts/hooks": {
+            "dev-master": {
+                "name": "umlts/hooks",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/bartikowskiw/hooks.git",
+                    "reference": "1e843be0727a28c96180239f0d6af390f8097180"
+                },
+                "require": {
+                    "php": "^7"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-07-21T15:00:42+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\Hooks\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ]
+            }
+        },
+        "umlts/marc_pull": {
+            "dev-master": {
+                "name": "umlts/marc_pull",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/bartikowskiw/marc_pull.git",
+                    "reference": "9cbfc6e6c1d7dc0bcbcd78f0eb29411bfc561227"
+                },
+                "require": {
+                    "ext-pgsql": "^7",
+                    "ext-xml": "^7",
+                    "php": "^7",
+                    "umlts/config": "@dev",
+                    "umlts/hooks": "@dev",
+                    "umlts/pg_parallel": "@dev",
+                    "umlts/sierra_marc_query": "@dev",
+                    "umlts/sierra_toolset": "@dev"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-07-21T15:01:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\MarcPull\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ]
+            }
+        },
+        "umlts/pg_parallel": {
+            "dev-master": {
+                "name": "umlts/pg_parallel",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/bartikowskiw/pg_parallel.git",
+                    "reference": "85ec56eae1e1870c5aa8e0eb5d0eaa6b0eeefbeb"
+                },
+                "require": {
+                    "ext-pgsql": "^7.0",
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-07-18T19:00:46+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\PgParallel\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ],
+                "description": "Postgres Parallel"
+            }
+        },
+        "umlts/sierra_marc_query": {
+            "dev-master": {
+                "name": "umlts/sierra_marc_query",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/bartikowskiw/sierra_marc_query.git",
+                    "reference": "8b4974b659e610db4a9dad99410c727564966494"
+                },
+                "require": {
+                    "ext-xml": "^7.0",
+                    "umlts/pg_parallel": "@dev"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-07-21T14:30:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\SierraMarcQuery\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "bartikowskiw",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ],
+                "description": "Classes for generating MARC records from the Sierra database."
+            },
+            "dev-ebsco": {
+                "name": "umlts/sierra_marc_query",
+                "version": "dev-ebsco",
+                "version_normalized": "dev-ebsco",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/bartikowskiw/sierra_marc_query.git",
+                    "reference": "8b4974b659e610db4a9dad99410c727564966494"
+                },
+                "require": {
+                    "ext-xml": "^7.0",
+                    "umlts/pg_parallel": "@dev"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-07-21T14:30:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\SierraMarcQuery\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "bartikowskiw",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ],
+                "description": "Classes for generating MARC records from the Sierra database."
+            }
+        },
+        "umlts/sierra_toolset": {
+            "dev-master": {
+                "name": "umlts/sierra_toolset",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/bartikowskiw/sierra_toolset.git",
+                    "reference": "15e7d299c2bcb616548cc2e413a4aff03d80261e"
+                },
+                "require": {
+                    "pear/file_marc": "^1.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-07-21T15:02:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\Sierra\\Toolset\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ],
+                "description": "Tools for Sierra"
+            }
+        }
+    }
+}
