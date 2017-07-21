@@ -95,7 +95,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/marc_pull.git",
-                    "reference": "9cbfc6e6c1d7dc0bcbcd78f0eb29411bfc561227"
+                    "reference": "7c2756d19a3dd09936cb8bfbb69b369ccc694f6b"
                 },
                 "require": {
                     "ext-pgsql": "^7",
@@ -110,7 +110,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-21T15:01:34+00:00",
+                "time": "2017-07-21T15:43:41+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -166,7 +166,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/sierra_marc_query.git",
-                    "reference": "8b4974b659e610db4a9dad99410c727564966494"
+                    "reference": "d85806d108b3477e484ea6e4deab5f3a8be27402"
                 },
                 "require": {
                     "ext-xml": "^7.0",
@@ -175,7 +175,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-21T14:30:22+00:00",
+                "time": "2017-07-21T15:44:52+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -184,7 +184,7 @@
                 },
                 "authors": [
                     {
-                        "name": "bartikowskiw",
+                        "name": "Waldemar Bartikowski",
                         "email": "bartikowskiw@missouri.edu"
                     }
                 ],
