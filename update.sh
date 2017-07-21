@@ -3,4 +3,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 satis build $DIR/src/satis.json $DIR
 
-git add . && git commit -m "Update - `date`" && git push
+git add . && git commit -m "Update auto commit - `date`" && git push
