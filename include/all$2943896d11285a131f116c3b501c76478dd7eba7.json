@@ -35,12 +35,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/config.git",
-                    "reference": "60baf39088da23492825d3908843c38e8c2e0207"
+                    "reference": "32e8dc10f388025d2994ce060d5b477328208c4f"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-24T15:13:00+00:00",
+                "time": "2017-07-25T20:55:45+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
