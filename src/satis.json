@@ -8,6 +8,10 @@
         },
         {
             "type": "git",
+            "url": "https://vcs.missouri.edu/bartikowskiw/multicurl.git"
+        },
+        {
+            "type": "git",
             "url": "https://vcs.missouri.edu/bartikowskiw/sierra_marc_query.git"
         },
         {
