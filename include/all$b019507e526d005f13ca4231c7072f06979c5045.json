@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/sierra/ashkente.git",
-                    "reference": "9d52b841cb7b78541552d2e17acf3d8f8fe6bc23"
+                    "reference": "1ce7641b12d7b030ef8e29e263a2995b80fdfebe"
                 },
                 "require": {
                     "monolog/monolog": "^1.23",
@@ -17,7 +17,7 @@
                     "umlts/config": "@dev",
                     "umlts/marc_pull": "@dev"
                 },
-                "time": "2017-07-26T16:10:19+00:00",
+                "time": "2017-07-26T16:25:03+00:00",
                 "type": "project",
                 "authors": [
                     {
