@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/sierra/ashkente.git",
-                    "reference": "1ce7641b12d7b030ef8e29e263a2995b80fdfebe"
+                    "reference": "98b51a457e79b8b15ad0babb5339d0191feeb33c"
                 },
                 "require": {
                     "monolog/monolog": "^1.23",
@@ -17,7 +17,7 @@
                     "umlts/config": "@dev",
                     "umlts/marc_pull": "@dev"
                 },
-                "time": "2017-07-26T16:25:03+00:00",
+                "time": "2017-07-26T16:41:58+00:00",
                 "type": "project",
                 "authors": [
                     {
@@ -167,7 +167,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/pg_parallel.git",
-                    "reference": "85ec56eae1e1870c5aa8e0eb5d0eaa6b0eeefbeb"
+                    "reference": "e2973b57e63a007631b9d460510e7259aa8f65d2"
                 },
                 "require": {
                     "ext-pgsql": "^7.0",
@@ -176,7 +176,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-18T19:00:46+00:00",
+                "time": "2017-07-26T21:20:52+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -200,7 +200,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/sierra_marc_query.git",
-                    "reference": "d85806d108b3477e484ea6e4deab5f3a8be27402"
+                    "reference": "2bc8e02b5145c3421fe3673a3f562b4529d9987f"
                 },
                 "require": {
                     "ext-xml": "^7.0",
@@ -209,7 +209,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-21T15:44:52+00:00",
+                "time": "2017-07-27T14:22:38+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
