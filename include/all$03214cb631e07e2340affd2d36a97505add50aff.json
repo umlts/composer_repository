@@ -96,7 +96,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/marc_pull.git",
-                    "reference": "b921a33728c0d44fd2c405e010f8e895caf0ff42"
+                    "reference": "088d4a864f0d4b2fdccd930a79c0425cfec1f39b"
                 },
                 "require": {
                     "ext-pgsql": "^7",
@@ -111,7 +111,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-31T15:30:33+00:00",
+                "time": "2017-07-31T15:34:13+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
