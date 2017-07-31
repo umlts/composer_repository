@@ -167,7 +167,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/pg_parallel.git",
-                    "reference": "e2973b57e63a007631b9d460510e7259aa8f65d2"
+                    "reference": "a85d1b04f5df7b92f16ae0f8b93451ea474fe95b"
                 },
                 "require": {
                     "ext-pgsql": "^7.0",
@@ -176,7 +176,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-26T21:20:52+00:00",
+                "time": "2017-07-31T15:25:18+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
