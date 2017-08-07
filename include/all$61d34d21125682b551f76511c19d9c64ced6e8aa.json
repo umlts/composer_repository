@@ -36,12 +36,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/config.git",
-                    "reference": "14d3f7e007aff10a93f37625a47cd86292170f60"
+                    "reference": "bb238988ec4f4f6ba227eab6c0370a39628ba75f"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-26T15:06:33+00:00",
+                "time": "2017-08-03T21:18:42+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -96,7 +96,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/marc_pull.git",
-                    "reference": "571b21c13face9fa770c69d6cb21ba115c75c1ad"
+                    "reference": "6ab9b7df13d6681a331eeabbfe39c45c76c4090d"
                 },
                 "require": {
                     "ext-pgsql": "^7",
@@ -111,7 +111,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-08-02T17:53:44+00:00",
+                "time": "2017-08-07T16:05:05+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
