@@ -296,16 +296,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/bartikowskiw/sqlite_wrapper.git",
-                    "reference": "19e7d642a0e64337918bcc9f2af89a082b4fb959"
+                    "reference": "c2ed3b3f93bdc608c216308fb03888e3ea6cb50d"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2017-08-08T19:35:51+00:00",
+                "time": "2017-08-08T19:41:32+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
-                        "Umlts\\SqliteDbWrapper\\": "src/"
+                        "Umlts\\SqliteWrapper\\": "src/"
                     }
                 },
                 "authors": [
