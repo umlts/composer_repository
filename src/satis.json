@@ -8,6 +8,10 @@
         },
         {
             "type": "git",
+            "url": "https://vcs.missouri.edu/bartikowskiw/sqlite_wrapper.git"
+        },
+        {
+            "type": "git",
             "url": "https://vcs.missouri.edu/bartikowskiw/multicurl.git"
         },
         {
