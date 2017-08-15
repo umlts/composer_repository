@@ -133,7 +133,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://vcs.missouri.edu/bartikowskiw/marc_toolset.git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
                     "reference": "9ed4dbb035b01c697464495366a55a81e4c2e2ba"
                 },
                 "require": {
