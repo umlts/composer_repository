@@ -166,7 +166,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://vcs.missouri.edu/bartikowskiw/pg_parallel.git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/pg_parallel.git",
                     "reference": "734740128231fe8f15ce87913d59df1f99d501f4"
                 },
                 "require": {

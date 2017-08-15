@@ -4,7 +4,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://vcs.missouri.edu/bartikowskiw/pg_parallel.git"
+            "url": "https://vcs.missouri.edu/umlts/phplib/pg_parallel.git"
         },
         {
             "type": "git",
