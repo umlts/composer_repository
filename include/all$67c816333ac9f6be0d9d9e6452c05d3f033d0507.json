@@ -64,8 +64,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://vcs.missouri.edu/bartikowskiw/hooks.git",
-                    "reference": "1e843be0727a28c96180239f0d6af390f8097180"
+                    "url": "https://vcs.missouri.edu/umlts/phplib/hooks.git",
+                    "reference": "d194236eabaa69b61f0d575f85e6e59f4f58a183"
                 },
                 "require": {
                     "php": "^7"
@@ -73,7 +73,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-21T15:00:42+00:00",
+                "time": "2017-08-15T16:24:16+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
