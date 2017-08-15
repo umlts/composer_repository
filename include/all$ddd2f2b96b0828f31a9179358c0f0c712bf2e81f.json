@@ -199,8 +199,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://vcs.missouri.edu/bartikowskiw/sierra_marc_query.git",
-                    "reference": "097bf32a032ed087c88f549960b5e2e1fe582312"
+                    "url": "https://vcs.missouri.edu/umlts/phplib/sierra_marc_query.git",
+                    "reference": "758b92541da8cd2254dd0a11843d07d080d514dc"
                 },
                 "require": {
                     "ext-xml": "^7.0",
@@ -209,7 +209,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-27T14:52:33+00:00",
+                "time": "2017-08-15T16:31:18+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -230,7 +230,7 @@
                 "version_normalized": "dev-ebsco",
                 "source": {
                     "type": "git",
-                    "url": "https://vcs.missouri.edu/bartikowskiw/sierra_marc_query.git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/sierra_marc_query.git",
                     "reference": "8b4974b659e610db4a9dad99410c727564966494"
                 },
                 "require": {
