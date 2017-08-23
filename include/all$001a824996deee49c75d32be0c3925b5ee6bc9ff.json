@@ -198,7 +198,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/pg_parallel.git",
-                    "reference": "4e4eff38725fd43ba3cdb26eef65c9d6238b3f26"
+                    "reference": "a69c22876c1b0105c7400fe8b2b8735e6de176c5"
                 },
                 "require": {
                     "ext-pgsql": "^7.0",
@@ -207,7 +207,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-08-18T19:16:13+00:00",
+                "time": "2017-08-23T13:23:42+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
