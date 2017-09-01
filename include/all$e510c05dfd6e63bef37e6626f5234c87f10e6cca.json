@@ -99,7 +99,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_pull.git",
-                    "reference": "1dd2adeccc534efb614e832c5e848640f76dbaa4"
+                    "reference": "c482f340025c9ef909cff32f51b3508ec79aa4f6"
                 },
                 "require": {
                     "ext-pgsql": "^7",
@@ -107,6 +107,7 @@
                     "php": "^7",
                     "umlts/config": "@dev",
                     "umlts/hooks": "@dev",
+                    "umlts/pack_array": "dev-master",
                     "umlts/pg_parallel": "@dev",
                     "umlts/sierra_marc_query": "@dev",
                     "umlts/sierra_toolset": "@dev"
@@ -114,7 +115,44 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-08-18T19:19:22+00:00",
+                "time": "2017-09-01T20:10:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\MarcPull\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ]
+            },
+            "dev-pack_array": {
+                "name": "umlts/marc_pull",
+                "version": "dev-pack_array",
+                "version_normalized": "dev-pack_array",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/marc_pull.git",
+                    "reference": "c482f340025c9ef909cff32f51b3508ec79aa4f6"
+                },
+                "require": {
+                    "ext-pgsql": "^7",
+                    "ext-xml": "^7",
+                    "php": "^7",
+                    "umlts/config": "@dev",
+                    "umlts/hooks": "@dev",
+                    "umlts/pack_array": "dev-master",
+                    "umlts/pg_parallel": "@dev",
+                    "umlts/sierra_marc_query": "@dev",
+                    "umlts/sierra_toolset": "@dev"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.2"
+                },
+                "time": "2017-09-01T20:10:48+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
