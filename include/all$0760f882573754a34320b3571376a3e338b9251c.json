@@ -194,6 +194,34 @@
                 "description": "Class executing parallel connections to http servers."
             }
         },
+        "umlts/pack_array": {
+            "dev-master": {
+                "name": "umlts/pack_array",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/pack_array.git",
+                    "reference": "9bf1b2de60172fd3dfb20129ebfc6df6df23085e"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.3"
+                },
+                "time": "2017-09-01T18:08:33+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\PackArray\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Waldemar Bartikowski",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ]
+            }
+        },
         "umlts/pg_parallel": {
             "dev-master": {
                 "name": "umlts/pg_parallel",
