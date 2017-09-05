@@ -175,7 +175,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
-                    "reference": "7915cdaeabe2b4e475fa4ee585f8d5fd1ae19d04"
+                    "reference": "d59b4ac6cb65efb77c3af81a2de683e6dc686734"
                 },
                 "require": {
                     "pear/file_marc": "^1.1",
@@ -184,7 +184,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2017-08-29T17:05:29+00:00",
+                "time": "2017-09-05T21:08:39+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
@@ -240,12 +240,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/pack_array.git",
-                    "reference": "9bf1b2de60172fd3dfb20129ebfc6df6df23085e"
+                    "reference": "dacda22c2ea28bf65363cde4302a7835f51b2abf"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2017-09-01T18:08:33+00:00",
+                "time": "2017-09-01T21:18:45+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
