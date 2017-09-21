@@ -99,7 +99,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_pull.git",
-                    "reference": "c482f340025c9ef909cff32f51b3508ec79aa4f6"
+                    "reference": "d3ca41cd1464f1722a2c8421b8a337f03b910d5d"
                 },
                 "require": {
                     "ext-pgsql": "^7",
@@ -115,7 +115,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-09-01T20:10:48+00:00",
+                "time": "2017-09-21T15:21:21+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -331,7 +331,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/sierra_marc_query.git",
-                    "reference": "76f0d8f8130d68964f9a391e73b88191af898141"
+                    "reference": "7ca546177cfd0f62d4d3d324d3e823153e571568"
                 },
                 "require": {
                     "ext-xml": "^7.0",
@@ -340,7 +340,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-09-20T21:51:15+00:00",
+                "time": "2017-09-21T18:00:18+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
