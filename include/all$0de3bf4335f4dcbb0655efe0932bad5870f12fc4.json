@@ -333,7 +333,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/sierra_marc_query.git",
-                    "reference": "9fb8a4672c960ad4ae155f0e50a4807f9610c263"
+                    "reference": "e1aaa3e5900271c84eb3ef19b482c4c87bde29ca"
                 },
                 "require": {
                     "ext-xml": "^7.0",
@@ -342,7 +342,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-10-03T20:05:15+00:00",
+                "time": "2017-10-03T21:12:57+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
