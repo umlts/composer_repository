@@ -271,7 +271,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/multicurl.git",
-                    "reference": "f09125eae63308862ab5d972f0a4832312a98ac4"
+                    "reference": "97d1e837d794508f4f86f6208b5e32032bb765d8"
                 },
                 "require": {
                     "ext-curl": "^7.0",
@@ -280,7 +280,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2017-07-26T15:38:17+00:00",
+                "time": "2017-11-06T20:17:48+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
