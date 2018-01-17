@@ -1,14 +1,14 @@
 {
     "packages": {
-        "umlts/ashkende": {
+        "umlts/ashkente": {
             "dev-master": {
-                "name": "umlts/ashkende",
+                "name": "umlts/ashkente",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/sierra/ashkente.git",
-                    "reference": "b623f7c49f55c2e725d40bf8f80721dffb451f52"
+                    "reference": "5bc32b1c75b1507655bd8c724a3a9ea30af11355"
                 },
                 "require": {
                     "ext-bcmath": "^7",
@@ -18,7 +18,7 @@
                     "umlts/config": "@dev",
                     "umlts/marc_pull": "@dev"
                 },
-                "time": "2017-11-30T17:01:13+00:00",
+                "time": "2017-12-21T16:17:53+00:00",
                 "type": "project",
                 "authors": [
                     {
@@ -201,10 +201,10 @@
                     }
                 ]
             },
-            "dev-master": {
+            "v0.1.1": {
                 "name": "umlts/marc_toolset",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
@@ -220,6 +220,38 @@
                     "phpunit/phpunit": "^6.3"
                 },
                 "time": "2017-12-04T17:16:53+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\MarcToolset\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "bartikowskiw",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ]
+            },
+            "dev-master": {
+                "name": "umlts/marc_toolset",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
+                    "reference": "3307c5907a12affe521e341ae188087f38e5f4b7"
+                },
+                "require": {
+                    "ext-xml": "*",
+                    "pear/file_marc": ">=1.2",
+                    "pear/validate_ispn": "dev-master",
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.3"
+                },
+                "time": "2018-01-17T16:42:52+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
@@ -250,6 +282,38 @@
                     "phpunit/phpunit": "^6.3"
                 },
                 "time": "2017-09-20T16:48:39+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\MarcToolset\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "bartikowskiw",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ]
+            },
+            "dev-mapping_fn": {
+                "name": "umlts/marc_toolset",
+                "version": "dev-mapping_fn",
+                "version_normalized": "dev-mapping_fn",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
+                    "reference": "3307c5907a12affe521e341ae188087f38e5f4b7"
+                },
+                "require": {
+                    "ext-xml": "*",
+                    "pear/file_marc": ">=1.2",
+                    "pear/validate_ispn": "dev-master",
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.3"
+                },
+                "time": "2018-01-17T16:42:52+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
