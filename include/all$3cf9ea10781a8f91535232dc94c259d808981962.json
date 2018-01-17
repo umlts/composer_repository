@@ -240,7 +240,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
-                    "reference": "3307c5907a12affe521e341ae188087f38e5f4b7"
+                    "reference": "d8c3b704d40f39d6431c42f512eee3d57d966cc7"
                 },
                 "require": {
                     "ext-xml": "*",
@@ -251,7 +251,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2018-01-17T16:42:52+00:00",
+                "time": "2018-01-17T22:20:58+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
