@@ -44,6 +44,10 @@
         },
         {
             "type": "git",
+            "url": "https://vcs.missouri.edu/umlts/phplib/try_catch_retry.git"
+        },
+        {
+            "type": "git",
             "url": "https://vcs.missouri.edu/umlts/sierra/ashkente.git"
         }
     ],
