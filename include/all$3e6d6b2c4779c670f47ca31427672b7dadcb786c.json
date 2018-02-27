@@ -368,7 +368,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/multicurl.git",
-                    "reference": "15df731fe78223a32f7c8a5988bad80438783e1b"
+                    "reference": "23335414813f31800d670d4b4b23a6ba626736ba"
                 },
                 "require": {
                     "ext-curl": "^7.0",
@@ -377,7 +377,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2018-02-06T14:23:52+00:00",
+                "time": "2018-02-27T17:11:53+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -401,12 +401,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/pack_array.git",
-                    "reference": "dacda22c2ea28bf65363cde4302a7835f51b2abf"
+                    "reference": "1dbea03a9eca89db894748bc1f074292073dd1eb"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2017-09-01T21:18:45+00:00",
+                "time": "2018-02-27T15:44:19+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
@@ -587,7 +587,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/try_catch_retry.git",
-                    "reference": "251882500ca4936981b98071c0f3138fd7a83bf4"
+                    "reference": "a82b59ba9255584ea044f4360b76b9b2335098c9"
                 },
                 "require": {
                     "php": "^7"
@@ -598,7 +598,7 @@
                     "phpunit/phpunit": "^6.5",
                     "squizlabs/php_codesniffer": "*"
                 },
-                "time": "2018-02-22T17:51:31+00:00",
+                "time": "2018-02-27T14:56:53+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
