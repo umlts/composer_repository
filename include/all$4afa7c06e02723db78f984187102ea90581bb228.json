@@ -463,16 +463,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/sierra_marc_query.git",
-                    "reference": "8554eeca3f14fa3b0aee1a135956876c33ca037a"
+                    "reference": "22375b2d3ada994712b8a9fa5e2a3773076dd173"
                 },
                 "require": {
                     "ext-xml": "^7.0",
-                    "umlts/pg_parallel": "@dev"
+                    "umlts/pg_parallel": "@dev",
+                    "umlts/sierra_toolset": "@dev"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2018-04-06T20:58:26+00:00",
+                "time": "2018-06-25T19:21:01+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
