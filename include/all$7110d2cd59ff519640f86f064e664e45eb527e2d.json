@@ -527,7 +527,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/sierra_toolset.git",
-                    "reference": "8b4f999066039b212b0954cc20580ba32347a654"
+                    "reference": "14a7ac69757d58876dd1ef8aec7ea23d8e3243d4"
                 },
                 "require": {
                     "pear/file_marc": "^1.1",
@@ -536,7 +536,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2018-06-25T17:43:38+00:00",
+                "time": "2018-06-25T18:50:11+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
