@@ -101,7 +101,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_pull.git",
-                    "reference": "15fa9f2de13704a96acd2e90053bbc897281fd67"
+                    "reference": "28c19eaa323305e590dc43b8a20c6d0711a3f6db"
                 },
                 "require": {
                     "ext-pgsql": "^7",
@@ -117,7 +117,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2018-06-25T19:36:33+00:00",
+                "time": "2018-06-25T20:06:34+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
