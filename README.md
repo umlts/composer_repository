@@ -30,4 +30,4 @@ or
 
 ```
 
-to use the github.
+to use github.
