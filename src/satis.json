@@ -40,6 +40,10 @@
         },
         {
             "type": "git",
+            "url": "https://vcs.missouri.edu/umlts/phplib/marc_reader.git"
+        },
+        {
+            "type": "git",
             "url": "https://vcs.missouri.edu/umlts/phplib/pack_array.git"
         },
         {
