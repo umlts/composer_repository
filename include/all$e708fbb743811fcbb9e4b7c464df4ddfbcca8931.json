@@ -363,14 +363,14 @@
                     }
                 ]
             },
-            "dev-master": {
+            "v0.1.5": {
                 "name": "umlts/marc_toolset",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.1.5",
+                "version_normalized": "0.1.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
-                    "reference": "06e44335ca42ee76eb596badd547ebe3c1987961"
+                    "reference": "4c0c28aaeff87c6d6296a738c50da3b4d9bb84d8"
                 },
                 "require": {
                     "ext-xml": "*",
@@ -382,7 +382,40 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2018-08-27T18:41:35+00:00",
+                "time": "2018-08-27T19:19:49+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Umlts\\MarcToolset\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "bartikowskiw",
+                        "email": "bartikowskiw@missouri.edu"
+                    }
+                ]
+            },
+            "dev-master": {
+                "name": "umlts/marc_toolset",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://vcs.missouri.edu/umlts/phplib/marc_toolset.git",
+                    "reference": "4c0c28aaeff87c6d6296a738c50da3b4d9bb84d8"
+                },
+                "require": {
+                    "ext-xml": "*",
+                    "pear/file_marc": ">=1.2",
+                    "pear/validate_ispn": "dev-master",
+                    "php": ">=7.0",
+                    "umlts/marc_reader": "dev-master"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.3"
+                },
+                "time": "2018-08-27T19:19:49+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
