@@ -177,7 +177,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_reader.git",
-                    "reference": "2437444f202fc54b8309e93cfb500fdb26b19e9c"
+                    "reference": "976f88ea5c89779781baea339374b254503d7066"
                 },
                 "require": {
                     "php": ">=7.0"
@@ -185,7 +185,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2018-08-29T21:33:40+00:00",
+                "time": "2018-08-29T21:34:26+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
