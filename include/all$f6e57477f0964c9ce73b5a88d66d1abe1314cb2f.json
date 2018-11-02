@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/sierra/ashkente.git",
-                    "reference": "f44a350bb5b5c16d2282204b15921c92eec47624"
+                    "reference": "2393e6467208549200332c9779704b2b818403e5"
                 },
                 "require": {
                     "ext-bcmath": "^7",
@@ -19,7 +19,10 @@
                     "umlts/marc_pull": "@dev",
                     "umlts/try_catch_retry": "@dev"
                 },
-                "time": "2018-07-31T15:48:30+00:00",
+                "require-dev": {
+                    "phpstan/phpstan": "^0.10.5"
+                },
+                "time": "2018-11-02T21:13:15+00:00",
                 "type": "project",
                 "authors": [
                     {
@@ -38,7 +41,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/config.git",
-                    "reference": "f49a251685c8c47ac7720863cbab5579189dbbd8"
+                    "reference": "d47a4d046513cae7edceaa6cbecf1ffbefb8fbf6"
                 },
                 "require": {
                     "ext-yaml": "^2.0"
@@ -46,7 +49,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2018-09-28T20:51:53+00:00",
+                "time": "2018-10-26T14:29:52+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -101,7 +104,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/marc_pull.git",
-                    "reference": "28c19eaa323305e590dc43b8a20c6d0711a3f6db"
+                    "reference": "b4cf9110a5d93f76714abdeb8915725bdbd323af"
                 },
                 "require": {
                     "ext-pgsql": "^7",
@@ -117,7 +120,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2018-06-25T20:06:34+00:00",
+                "time": "2018-11-02T22:01:08+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -599,16 +602,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/pack_array.git",
-                    "reference": "1dbea03a9eca89db894748bc1f074292073dd1eb"
+                    "reference": "7e73b4a0f1a9c24b37f2128e31fc9e4ff8c6e0ab"
                 },
                 "require-dev": {
+                    "phpstan/phpstan": "^0.10.5",
                     "phpunit/phpunit": "^6.3"
                 },
-                "time": "2018-02-27T15:44:19+00:00",
+                "time": "2018-11-02T20:52:03+00:00",
                 "type": "project",
                 "autoload": {
                     "psr-4": {
                         "Umlts\\PackArray\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Umlts\\PackArray\\Test\\": "tests/"
                     }
                 },
                 "authors": [
