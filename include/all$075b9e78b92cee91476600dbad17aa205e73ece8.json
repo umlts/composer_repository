@@ -41,7 +41,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://vcs.missouri.edu/umlts/phplib/config.git",
-                    "reference": "d47a4d046513cae7edceaa6cbecf1ffbefb8fbf6"
+                    "reference": "95e04666fcee599c3673883487aefb0b0b44b004"
                 },
                 "require": {
                     "ext-yaml": "^2.0"
@@ -49,7 +49,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^6.2"
                 },
-                "time": "2018-10-26T14:29:52+00:00",
+                "time": "2018-11-06T21:22:15+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
